@@ -11,7 +11,7 @@
 
 ## Запуск
 
-Создать файл `terraform.tfvars` с указанием значений переменных. Пример файла [terraform.tfvars.example](terraform.tfvars.example)
+Создать файл `terraform.tfvars` с указанием значений переменных. Пример файла [terraform.tfvars.example](vpn/terraform.tfvars.example)
 
 ```shell
 terraform init

@@ -12,14 +12,14 @@ provider "twc" {
 }
 
 module "ssh" {
-  source = "./modules/ssh"
+  source = "../modules/ssh"
   twc_token = var.twc_token
   key_name = var.ssh_key_name
   key_body = var.ssh_key_body
 }
 
 module "wg-server" {
-  source = "./modules/software-server"
+  source = "../modules/software-server"
   twc_token = var.twc_token
   soft_name = var.soft_soft_name
   location = var.soft_location
@@ -31,7 +31,7 @@ module "wg-server" {
 }
 
 module "test-srv" {
-  source = "./modules/preset-server"
+  source = "../modules/preset-server"
   cpu = 1
   ram = 1024
   disk = 15360
