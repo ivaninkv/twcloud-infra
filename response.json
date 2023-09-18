@@ -1,0 +1,1296 @@
+{
+  "meta": {
+    "total": 67
+  },
+  "server_presets": [
+    {
+      "id": 2121,
+      "location": "ru-1",
+      "price": 18690,
+      "cpu": 6,
+      "cpu_frequency": "2.4",
+      "ram": 10240,
+      "disk": 409600,
+      "disk_type": "ssd",
+      "bandwidth": 200,
+      "description": "",
+      "description_short": "E5/10/400 (2022)",
+      "tags": [
+        "site",
+        "cp",
+        "popular_site",
+        "vds_dedic"
+      ],
+      "is_allowed_local_network": false
+    },
+    {
+      "id": 2123,
+      "location": "ru-1",
+      "price": 20370,
+      "cpu": 6,
+      "cpu_frequency": "2.4",
+      "ram": 26624,
+      "disk": 409600,
+      "disk_type": "ssd",
+      "bandwidth": 200,
+      "description": "",
+      "description_short": "E5/26/400 (2022)",
+      "tags": [
+        "site",
+        "cp",
+        "popular_site",
+        "vds_dedic"
+      ],
+      "is_allowed_local_network": false
+    },
+    {
+      "id": 2125,
+      "location": "ru-1",
+      "price": 24150,
+      "cpu": 6,
+      "cpu_frequency": "4.8",
+      "ram": 26624,
+      "disk": 819200,
+      "disk_type": "nvme",
+      "bandwidth": 200,
+      "description": "",
+      "description_short": "E2236/26/800N (2022)",
+      "tags": [
+        "site",
+        "cp",
+        "vds_dedic"
+      ],
+      "is_allowed_local_network": true
+    },
+    {
+      "id": 2127,
+      "location": "ru-1",
+      "price": 27300,
+      "cpu": 6,
+      "cpu_frequency": "4.8",
+      "ram": 59392,
+      "disk": 819200,
+      "disk_type": "nvme",
+      "bandwidth": 200,
+      "description": "",
+      "description_short": "E2236/58/800N (2022)",
+      "tags": [
+        "site",
+        "cp",
+        "vds_dedic"
+      ],
+      "is_allowed_local_network": true
+    },
+    {
+      "id": 2233,
+      "location": "ru-1",
+      "price": 290,
+      "cpu": 1,
+      "cpu_frequency": "3.3",
+      "ram": 1024,
+      "disk": 10240,
+      "disk_type": "nvme",
+      "bandwidth": 200,
+      "description": "",
+      "description_short": "Danny",
+      "tags": [
+        "site",
+        "cp",
+        "mobile",
+        "nvme"
+      ],
+      "is_allowed_local_network": true
+    },
+    {
+      "id": 2235,
+      "location": "ru-1",
+      "price": 590,
+      "cpu": 1,
+      "cpu_frequency": "3.3",
+      "ram": 2048,
+      "disk": 30720,
+      "disk_type": "nvme",
+      "bandwidth": 200,
+      "description": "",
+      "description_short": "Scarlett",
+      "tags": [
+        "site",
+        "cp",
+        "mobile",
+        "nvme"
+      ],
+      "is_allowed_local_network": true
+    },
+    {
+      "id": 2237,
+      "location": "ru-1",
+      "price": 890,
+      "cpu": 2,
+      "cpu_frequency": "3.3",
+      "ram": 2048,
+      "disk": 40960,
+      "disk_type": "nvme",
+      "bandwidth": 200,
+      "description": "",
+      "description_short": "Whitney",
+      "tags": [
+        "site",
+        "cp",
+        "popular_site",
+        "mobile",
+        "nvme"
+      ],
+      "is_allowed_local_network": true
+    },
+    {
+      "id": 2239,
+      "location": "ru-1",
+      "price": 1190,
+      "cpu": 2,
+      "cpu_frequency": "3.3",
+      "ram": 4096,
+      "disk": 51200,
+      "disk_type": "nvme",
+      "bandwidth": 200,
+      "description": "",
+      "description_short": "Sylvester",
+      "tags": [
+        "site",
+        "cp",
+        "mobile",
+        "nvme"
+      ],
+      "is_allowed_local_network": true
+    },
+    {
+      "id": 2241,
+      "location": "ru-1",
+      "price": 1990,
+      "cpu": 3,
+      "cpu_frequency": "3.3",
+      "ram": 6144,
+      "disk": 61440,
+      "disk_type": "nvme",
+      "bandwidth": 200,
+      "description": "",
+      "description_short": "Leo",
+      "tags": [
+        "site",
+        "cp",
+        "recommended_site",
+        "mobile",
+        "nvme"
+      ],
+      "is_allowed_local_network": true
+    },
+    {
+      "id": 2243,
+      "location": "ru-1",
+      "price": 3090,
+      "cpu": 4,
+      "cpu_frequency": "3.3",
+      "ram": 8192,
+      "disk": 102400,
+      "disk_type": "nvme",
+      "bandwidth": 200,
+      "description": "",
+      "description_short": "Bruce",
+      "tags": [
+        "site",
+        "cp",
+        "mobile",
+        "nvme"
+      ],
+      "is_allowed_local_network": true
+    },
+    {
+      "id": 2245,
+      "location": "ru-1",
+      "price": 5090,
+      "cpu": 6,
+      "cpu_frequency": "3.3",
+      "ram": 12288,
+      "disk": 184320,
+      "disk_type": "nvme",
+      "bandwidth": 200,
+      "description": "",
+      "description_short": "Keanu",
+      "tags": [
+        "site",
+        "cp",
+        "mobile",
+        "nvme"
+      ],
+      "is_allowed_local_network": true
+    },
+    {
+      "id": 2247,
+      "location": "ru-1",
+      "price": 6090,
+      "cpu": 8,
+      "cpu_frequency": "3.3",
+      "ram": 16384,
+      "disk": 266240,
+      "disk_type": "nvme",
+      "bandwidth": 200,
+      "description": "",
+      "description_short": "Arnold",
+      "tags": [
+        "site",
+        "cp",
+        "mobile",
+        "nvme"
+      ],
+      "is_allowed_local_network": true
+    },
+    {
+      "id": 2447,
+      "location": "ru-1",
+      "price": 188,
+      "cpu": 1,
+      "cpu_frequency": "3.3",
+      "ram": 1024,
+      "disk": 15360,
+      "disk_type": "nvme",
+      "bandwidth": 200,
+      "description": "",
+      "description_short": "Cloud 15",
+      "tags": [
+        "site",
+        "cp",
+        "discount35"
+      ],
+      "is_allowed_local_network": true
+    },
+    {
+      "id": 2449,
+      "location": "ru-1",
+      "price": 355,
+      "cpu": 1,
+      "cpu_frequency": "3.3",
+      "ram": 2048,
+      "disk": 30720,
+      "disk_type": "nvme",
+      "bandwidth": 200,
+      "description": "",
+      "description_short": "Cloud 30",
+      "tags": [
+        "site",
+        "cp",
+        "recommended_cp",
+        "discount35"
+      ],
+      "is_allowed_local_network": true
+    },
+    {
+      "id": 2451,
+      "location": "ru-1",
+      "price": 555,
+      "cpu": 2,
+      "cpu_frequency": "3.3",
+      "ram": 2048,
+      "disk": 40960,
+      "disk_type": "nvme",
+      "bandwidth": 200,
+      "description": "",
+      "description_short": "Cloud 40",
+      "tags": [
+        "site",
+        "cp",
+        "discount35",
+        "nvme_clients_choice"
+      ],
+      "is_allowed_local_network": true
+    },
+    {
+      "id": 2453,
+      "location": "ru-1",
+      "price": 655,
+      "cpu": 2,
+      "cpu_frequency": "3.3",
+      "ram": 4096,
+      "disk": 51200,
+      "disk_type": "nvme",
+      "bandwidth": 200,
+      "description": "",
+      "description_short": "Cloud 50",
+      "tags": [
+        "site",
+        "cp",
+        "discount35"
+      ],
+      "is_allowed_local_network": true
+    },
+    {
+      "id": 2455,
+      "location": "ru-1",
+      "price": 1100,
+      "cpu": 4,
+      "cpu_frequency": "3.3",
+      "ram": 8192,
+      "disk": 81920,
+      "disk_type": "nvme",
+      "bandwidth": 200,
+      "description": "",
+      "description_short": "Cloud 80",
+      "tags": [
+        "site",
+        "cp",
+        "discount35",
+        "nvme_timeweb_choice"
+      ],
+      "is_allowed_local_network": true
+    },
+    {
+      "id": 2457,
+      "location": "ru-1",
+      "price": 1833,
+      "cpu": 8,
+      "cpu_frequency": "3.3",
+      "ram": 12288,
+      "disk": 102400,
+      "disk_type": "nvme",
+      "bandwidth": 200,
+      "description": "",
+      "description_short": "Cloud 100",
+      "tags": [
+        "site",
+        "cp",
+        "discount35"
+      ],
+      "is_allowed_local_network": true
+    },
+    {
+      "id": 2459,
+      "location": "ru-1",
+      "price": 2777,
+      "cpu": 8,
+      "cpu_frequency": "3.3",
+      "ram": 16384,
+      "disk": 163840,
+      "disk_type": "nvme",
+      "bandwidth": 200,
+      "description": "",
+      "description_short": "Cloud 160",
+      "tags": [
+        "site",
+        "cp",
+        "discount35"
+      ],
+      "is_allowed_local_network": true
+    },
+    {
+      "id": 2551,
+      "location": "pl-1",
+      "price": 555,
+      "cpu": 2,
+      "cpu_frequency": "3",
+      "ram": 2048,
+      "disk": 40960,
+      "disk_type": "nvme",
+      "bandwidth": 100,
+      "description": "",
+      "description_short": "Euro - 3",
+      "tags": [
+        "site",
+        "cp",
+        "discount_euro"
+      ],
+      "is_allowed_local_network": true
+    },
+    {
+      "id": 2553,
+      "location": "pl-1",
+      "price": 655,
+      "cpu": 2,
+      "cpu_frequency": "3",
+      "ram": 4096,
+      "disk": 51200,
+      "disk_type": "nvme",
+      "bandwidth": 100,
+      "description": "",
+      "description_short": "Euro - 4",
+      "tags": [
+        "site",
+        "cp",
+        "discount_euro"
+      ],
+      "is_allowed_local_network": true
+    },
+    {
+      "id": 2555,
+      "location": "pl-1",
+      "price": 1100,
+      "cpu": 4,
+      "cpu_frequency": "3",
+      "ram": 8192,
+      "disk": 81920,
+      "disk_type": "nvme",
+      "bandwidth": 100,
+      "description": "",
+      "description_short": "Euro - 5",
+      "tags": [
+        "site",
+        "cp",
+        "discount_euro"
+      ],
+      "is_allowed_local_network": true
+    },
+    {
+      "id": 2557,
+      "location": "pl-1",
+      "price": 1833,
+      "cpu": 8,
+      "cpu_frequency": "3",
+      "ram": 12288,
+      "disk": 102400,
+      "disk_type": "nvme",
+      "bandwidth": 100,
+      "description": "",
+      "description_short": "Euro - 6",
+      "tags": [
+        "site",
+        "cp",
+        "discount_euro"
+      ],
+      "is_allowed_local_network": true
+    },
+    {
+      "id": 2559,
+      "location": "pl-1",
+      "price": 2777,
+      "cpu": 8,
+      "cpu_frequency": "3",
+      "ram": 16384,
+      "disk": 163840,
+      "disk_type": "nvme",
+      "bandwidth": 100,
+      "description": "",
+      "description_short": "Euro - 7",
+      "tags": [
+        "site",
+        "cp",
+        "discount_euro"
+      ],
+      "is_allowed_local_network": true
+    },
+    {
+      "id": 2573,
+      "location": "ru-1",
+      "price": 177,
+      "cpu": 1,
+      "cpu_frequency": "2.8",
+      "ram": 1024,
+      "disk": 15360,
+      "disk_type": "ssd",
+      "bandwidth": 100,
+      "description": "",
+      "description_short": "SSD 15",
+      "tags": [
+        "site",
+        "cp",
+        "ssd_2022"
+      ],
+      "is_allowed_local_network": false
+    },
+    {
+      "id": 2575,
+      "location": "ru-1",
+      "price": 322,
+      "cpu": 1,
+      "cpu_frequency": "2.8",
+      "ram": 2048,
+      "disk": 30720,
+      "disk_type": "ssd",
+      "bandwidth": 100,
+      "description": "",
+      "description_short": "SSD 30",
+      "tags": [
+        "site",
+        "cp",
+        "ssd_2022"
+      ],
+      "is_allowed_local_network": false
+    },
+    {
+      "id": 2577,
+      "location": "ru-1",
+      "price": 500,
+      "cpu": 2,
+      "cpu_frequency": "2.8",
+      "ram": 2048,
+      "disk": 40960,
+      "disk_type": "ssd",
+      "bandwidth": 100,
+      "description": "",
+      "description_short": "SSD 40",
+      "tags": [
+        "site",
+        "cp",
+        "ssd_2022"
+      ],
+      "is_allowed_local_network": false
+    },
+    {
+      "id": 2579,
+      "location": "ru-1",
+      "price": 600,
+      "cpu": 2,
+      "cpu_frequency": "2.8",
+      "ram": 4096,
+      "disk": 51200,
+      "disk_type": "ssd",
+      "bandwidth": 100,
+      "description": "",
+      "description_short": "SSD 50",
+      "tags": [
+        "site",
+        "cp",
+        "ssd_2022"
+      ],
+      "is_allowed_local_network": false
+    },
+    {
+      "id": 2581,
+      "location": "ru-1",
+      "price": 1000,
+      "cpu": 4,
+      "cpu_frequency": "2.8",
+      "ram": 8192,
+      "disk": 81920,
+      "disk_type": "ssd",
+      "bandwidth": 100,
+      "description": "",
+      "description_short": "SSD 80",
+      "tags": [
+        "site",
+        "cp",
+        "ssd_2022"
+      ],
+      "is_allowed_local_network": false
+    },
+    {
+      "id": 2583,
+      "location": "ru-1",
+      "price": 1655,
+      "cpu": 8,
+      "cpu_frequency": "2.8",
+      "ram": 12288,
+      "disk": 102400,
+      "disk_type": "ssd",
+      "bandwidth": 100,
+      "description": "",
+      "description_short": "SSD 100",
+      "tags": [
+        "site",
+        "cp",
+        "ssd_2022"
+      ],
+      "is_allowed_local_network": false
+    },
+    {
+      "id": 2585,
+      "location": "ru-1",
+      "price": 2500,
+      "cpu": 8,
+      "cpu_frequency": "2.8",
+      "ram": 16384,
+      "disk": 163840,
+      "disk_type": "ssd",
+      "bandwidth": 100,
+      "description": "",
+      "description_short": "SSD 160",
+      "tags": [
+        "site",
+        "cp",
+        "ssd_2022"
+      ],
+      "is_allowed_local_network": false
+    },
+    {
+      "id": 2611,
+      "location": "ru-1",
+      "price": 499,
+      "cpu": 1,
+      "cpu_frequency": "5",
+      "ram": 1024,
+      "disk": 15360,
+      "disk_type": "nvme",
+      "bandwidth": 200,
+      "description": "",
+      "description_short": "High - 1",
+      "tags": [
+        "site",
+        "cp",
+        "discount_highcpu2022"
+      ],
+      "is_allowed_local_network": false
+    },
+    {
+      "id": 2613,
+      "location": "ru-1",
+      "price": 833,
+      "cpu": 1,
+      "cpu_frequency": "5",
+      "ram": 2048,
+      "disk": 30720,
+      "disk_type": "nvme",
+      "bandwidth": 200,
+      "description": "",
+      "description_short": "High - 2",
+      "tags": [
+        "site",
+        "cp",
+        "discount_highcpu2022"
+      ],
+      "is_allowed_local_network": false
+    },
+    {
+      "id": 2615,
+      "location": "ru-1",
+      "price": 1277,
+      "cpu": 2,
+      "cpu_frequency": "5",
+      "ram": 2048,
+      "disk": 40960,
+      "disk_type": "nvme",
+      "bandwidth": 200,
+      "description": "",
+      "description_short": "High - 3",
+      "tags": [
+        "site",
+        "cp",
+        "discount_highcpu2022"
+      ],
+      "is_allowed_local_network": false
+    },
+    {
+      "id": 2617,
+      "location": "ru-1",
+      "price": 1666,
+      "cpu": 2,
+      "cpu_frequency": "5",
+      "ram": 4096,
+      "disk": 51200,
+      "disk_type": "nvme",
+      "bandwidth": 200,
+      "description": "",
+      "description_short": "High - 4",
+      "tags": [
+        "site",
+        "cp",
+        "discount_highcpu2022"
+      ],
+      "is_allowed_local_network": false
+    },
+    {
+      "id": 2619,
+      "location": "ru-1",
+      "price": 3277,
+      "cpu": 4,
+      "cpu_frequency": "5",
+      "ram": 8192,
+      "disk": 81920,
+      "disk_type": "nvme",
+      "bandwidth": 200,
+      "description": "",
+      "description_short": "High - 5",
+      "tags": [
+        "site",
+        "cp",
+        "discount_highcpu2022"
+      ],
+      "is_allowed_local_network": false
+    },
+    {
+      "id": 2621,
+      "location": "ru-1",
+      "price": 5944,
+      "cpu": 8,
+      "cpu_frequency": "5",
+      "ram": 12288,
+      "disk": 102400,
+      "disk_type": "nvme",
+      "bandwidth": 200,
+      "description": "",
+      "description_short": "High - 6",
+      "tags": [
+        "site",
+        "cp",
+        "discount_highcpu2022"
+      ],
+      "is_allowed_local_network": false
+    },
+    {
+      "id": 2623,
+      "location": "ru-1",
+      "price": 7111,
+      "cpu": 8,
+      "cpu_frequency": "5",
+      "ram": 16384,
+      "disk": 163840,
+      "disk_type": "nvme",
+      "bandwidth": 200,
+      "description": "",
+      "description_short": "High - 7",
+      "tags": [
+        "site",
+        "cp",
+        "discount_highcpu2022"
+      ],
+      "is_allowed_local_network": false
+    },
+    {
+      "id": 2937,
+      "location": "kz-1",
+      "price": 555,
+      "cpu": 2,
+      "cpu_frequency": "3.3",
+      "ram": 2048,
+      "disk": 40960,
+      "disk_type": "nvme",
+      "bandwidth": 100,
+      "description": "",
+      "description_short": "Cloud KZ 40 2023",
+      "tags": [
+        "site",
+        "cp",
+        "kz_base"
+      ],
+      "is_allowed_local_network": false
+    },
+    {
+      "id": 2939,
+      "location": "kz-1",
+      "price": 655,
+      "cpu": 2,
+      "cpu_frequency": "3.3",
+      "ram": 4096,
+      "disk": 51200,
+      "disk_type": "nvme",
+      "bandwidth": 100,
+      "description": "",
+      "description_short": "Cloud KZ 50 2023",
+      "tags": [
+        "site",
+        "cp",
+        "kz_base"
+      ],
+      "is_allowed_local_network": false
+    },
+    {
+      "id": 2941,
+      "location": "kz-1",
+      "price": 1100,
+      "cpu": 4,
+      "cpu_frequency": "3.3",
+      "ram": 8192,
+      "disk": 81920,
+      "disk_type": "nvme",
+      "bandwidth": 100,
+      "description": "",
+      "description_short": "Cloud KZ 80 2023",
+      "tags": [
+        "site",
+        "cp",
+        "kz_base"
+      ],
+      "is_allowed_local_network": false
+    },
+    {
+      "id": 2943,
+      "location": "kz-1",
+      "price": 1833,
+      "cpu": 8,
+      "cpu_frequency": "3.3",
+      "ram": 12288,
+      "disk": 102400,
+      "disk_type": "nvme",
+      "bandwidth": 100,
+      "description": "",
+      "description_short": "Cloud KZ 100 2023",
+      "tags": [
+        "site",
+        "cp",
+        "kz_base"
+      ],
+      "is_allowed_local_network": false
+    },
+    {
+      "id": 2945,
+      "location": "kz-1",
+      "price": 2777,
+      "cpu": 8,
+      "cpu_frequency": "3.3",
+      "ram": 16384,
+      "disk": 163840,
+      "disk_type": "nvme",
+      "bandwidth": 100,
+      "description": "",
+      "description_short": "Cloud KZ 160 2023",
+      "tags": [
+        "site",
+        "cp",
+        "kz_base"
+      ],
+      "is_allowed_local_network": false
+    },
+    {
+      "id": 3011,
+      "location": "ru-2",
+      "price": 188,
+      "cpu": 1,
+      "cpu_frequency": "3.3",
+      "ram": 1024,
+      "disk": 15360,
+      "disk_type": "nvme",
+      "bandwidth": 100,
+      "description": "",
+      "description_short": "Cloud NSK 15 2023",
+      "tags": [
+        "site",
+        "cp",
+        "nsk_base"
+      ],
+      "is_allowed_local_network": false
+    },
+    {
+      "id": 3013,
+      "location": "ru-2",
+      "price": 355,
+      "cpu": 1,
+      "cpu_frequency": "3.3",
+      "ram": 2048,
+      "disk": 30720,
+      "disk_type": "nvme",
+      "bandwidth": 100,
+      "description": "",
+      "description_short": "Cloud NSK 30 2023",
+      "tags": [
+        "site",
+        "cp",
+        "nsk_base"
+      ],
+      "is_allowed_local_network": false
+    },
+    {
+      "id": 3015,
+      "location": "ru-2",
+      "price": 555,
+      "cpu": 2,
+      "cpu_frequency": "3.3",
+      "ram": 2048,
+      "disk": 40960,
+      "disk_type": "nvme",
+      "bandwidth": 100,
+      "description": "",
+      "description_short": "Cloud NSK 40 2023",
+      "tags": [
+        "site",
+        "cp",
+        "nsk_base"
+      ],
+      "is_allowed_local_network": false
+    },
+    {
+      "id": 3017,
+      "location": "ru-2",
+      "price": 655,
+      "cpu": 2,
+      "cpu_frequency": "3.3",
+      "ram": 4096,
+      "disk": 51200,
+      "disk_type": "nvme",
+      "bandwidth": 100,
+      "description": "",
+      "description_short": "Cloud NSK 50 2023",
+      "tags": [
+        "site",
+        "cp",
+        "nsk_base"
+      ],
+      "is_allowed_local_network": false
+    },
+    {
+      "id": 3019,
+      "location": "ru-2",
+      "price": 1100,
+      "cpu": 4,
+      "cpu_frequency": "3.3",
+      "ram": 8192,
+      "disk": 81920,
+      "disk_type": "nvme",
+      "bandwidth": 100,
+      "description": "",
+      "description_short": "Cloud NSK 80 2023",
+      "tags": [
+        "site",
+        "cp",
+        "nsk_base"
+      ],
+      "is_allowed_local_network": false
+    },
+    {
+      "id": 3021,
+      "location": "ru-2",
+      "price": 1833,
+      "cpu": 8,
+      "cpu_frequency": "3.3",
+      "ram": 12288,
+      "disk": 102400,
+      "disk_type": "nvme",
+      "bandwidth": 100,
+      "description": "",
+      "description_short": "Cloud NSK 100 2023",
+      "tags": [
+        "site",
+        "cp",
+        "nsk_base"
+      ],
+      "is_allowed_local_network": false
+    },
+    {
+      "id": 3023,
+      "location": "ru-2",
+      "price": 2777,
+      "cpu": 8,
+      "cpu_frequency": "3.3",
+      "ram": 16384,
+      "disk": 163840,
+      "disk_type": "nvme",
+      "bandwidth": 100,
+      "description": "",
+      "description_short": "Cloud NSK 160 2023",
+      "tags": [
+        "site",
+        "cp",
+        "nsk_base"
+      ],
+      "is_allowed_local_network": false
+    },
+    {
+      "id": 3344,
+      "location": "nl-1",
+      "price": 555,
+      "cpu": 2,
+      "cpu_frequency": "3.3",
+      "ram": 2048,
+      "disk": 40960,
+      "disk_type": "nvme",
+      "bandwidth": 200,
+      "description": "",
+      "description_short": "Cloud NL 40",
+      "tags": [
+        "site",
+        "cp",
+        "nl_base"
+      ],
+      "is_allowed_local_network": false
+    },
+    {
+      "id": 3346,
+      "location": "nl-1",
+      "price": 655,
+      "cpu": 2,
+      "cpu_frequency": "3.3",
+      "ram": 4096,
+      "disk": 51200,
+      "disk_type": "nvme",
+      "bandwidth": 200,
+      "description": "",
+      "description_short": "Cloud NL 50",
+      "tags": [
+        "site",
+        "cp",
+        "nl_base"
+      ],
+      "is_allowed_local_network": false
+    },
+    {
+      "id": 3348,
+      "location": "nl-1",
+      "price": 1100,
+      "cpu": 4,
+      "cpu_frequency": "3.3",
+      "ram": 8192,
+      "disk": 81920,
+      "disk_type": "nvme",
+      "bandwidth": 200,
+      "description": "",
+      "description_short": "Cloud NL 80",
+      "tags": [
+        "site",
+        "cp",
+        "nl_base"
+      ],
+      "is_allowed_local_network": false
+    },
+    {
+      "id": 3350,
+      "location": "nl-1",
+      "price": 1833,
+      "cpu": 8,
+      "cpu_frequency": "3.3",
+      "ram": 12288,
+      "disk": 102400,
+      "disk_type": "nvme",
+      "bandwidth": 200,
+      "description": "",
+      "description_short": "Cloud NL 100",
+      "tags": [
+        "site",
+        "cp",
+        "nl_base"
+      ],
+      "is_allowed_local_network": false
+    },
+    {
+      "id": 3352,
+      "location": "nl-1",
+      "price": 2777,
+      "cpu": 8,
+      "cpu_frequency": "3.3",
+      "ram": 16384,
+      "disk": 163840,
+      "disk_type": "nvme",
+      "bandwidth": 200,
+      "description": "",
+      "description_short": "Cloud NL 160",
+      "tags": [
+        "site",
+        "cp",
+        "nl_base"
+      ],
+      "is_allowed_local_network": false
+    },
+    {
+      "id": 3795,
+      "location": "kz-1",
+      "price": 555,
+      "cpu": 2,
+      "cpu_frequency": "3.3",
+      "ram": 2048,
+      "disk": 40960,
+      "disk_type": "nvme",
+      "bandwidth": 100,
+      "description": "",
+      "description_short": "Cloud KZ 40",
+      "tags": [
+        "site",
+        "cp",
+        "kz_nvme_2023"
+      ],
+      "is_allowed_local_network": false
+    },
+    {
+      "id": 3797,
+      "location": "kz-1",
+      "price": 655,
+      "cpu": 2,
+      "cpu_frequency": "3.3",
+      "ram": 4096,
+      "disk": 51200,
+      "disk_type": "nvme",
+      "bandwidth": 100,
+      "description": "",
+      "description_short": "Cloud KZ 50",
+      "tags": [
+        "site",
+        "cp",
+        "kz_nvme_2023"
+      ],
+      "is_allowed_local_network": false
+    },
+    {
+      "id": 3799,
+      "location": "kz-1",
+      "price": 1100,
+      "cpu": 4,
+      "cpu_frequency": "3.3",
+      "ram": 8192,
+      "disk": 81920,
+      "disk_type": "nvme",
+      "bandwidth": 100,
+      "description": "",
+      "description_short": "Cloud KZ 80",
+      "tags": [
+        "site",
+        "cp",
+        "kz_nvme_2023"
+      ],
+      "is_allowed_local_network": false
+    },
+    {
+      "id": 3801,
+      "location": "kz-1",
+      "price": 1833,
+      "cpu": 8,
+      "cpu_frequency": "3.3",
+      "ram": 12288,
+      "disk": 102400,
+      "disk_type": "nvme",
+      "bandwidth": 100,
+      "description": "",
+      "description_short": "Cloud KZ 100",
+      "tags": [
+        "site",
+        "cp",
+        "kz_nvme_2023"
+      ],
+      "is_allowed_local_network": false
+    },
+    {
+      "id": 3803,
+      "location": "kz-1",
+      "price": 2777,
+      "cpu": 8,
+      "cpu_frequency": "3.3",
+      "ram": 16384,
+      "disk": 163840,
+      "disk_type": "nvme",
+      "bandwidth": 100,
+      "description": "",
+      "description_short": "Cloud KZ 160",
+      "tags": [
+        "site",
+        "cp",
+        "kz_nvme_2023"
+      ],
+      "is_allowed_local_network": false
+    },
+    {
+      "id": 4237,
+      "location": "ru-2",
+      "price": 188,
+      "cpu": 1,
+      "cpu_frequency": "3.3",
+      "ram": 1024,
+      "disk": 15360,
+      "disk_type": "nvme",
+      "bandwidth": 100,
+      "description": "",
+      "description_short": "Cloud NSK 15",
+      "tags": [
+        "site",
+        "cp",
+        "nsk_nvme"
+      ],
+      "is_allowed_local_network": false
+    },
+    {
+      "id": 4239,
+      "location": "ru-2",
+      "price": 355,
+      "cpu": 1,
+      "cpu_frequency": "3.3",
+      "ram": 2048,
+      "disk": 30720,
+      "disk_type": "nvme",
+      "bandwidth": 100,
+      "description": "",
+      "description_short": "Cloud NSK 30",
+      "tags": [
+        "site",
+        "cp",
+        "nsk_nvme"
+      ],
+      "is_allowed_local_network": false
+    },
+    {
+      "id": 4241,
+      "location": "ru-2",
+      "price": 555,
+      "cpu": 2,
+      "cpu_frequency": "3.3",
+      "ram": 2048,
+      "disk": 40960,
+      "disk_type": "nvme",
+      "bandwidth": 100,
+      "description": "",
+      "description_short": "Cloud NSK 40",
+      "tags": [
+        "site",
+        "cp",
+        "nsk_nvme"
+      ],
+      "is_allowed_local_network": false
+    },
+    {
+      "id": 4243,
+      "location": "ru-2",
+      "price": 655,
+      "cpu": 2,
+      "cpu_frequency": "3.3",
+      "ram": 4096,
+      "disk": 51200,
+      "disk_type": "nvme",
+      "bandwidth": 100,
+      "description": "",
+      "description_short": "Cloud NSK 50",
+      "tags": [
+        "site",
+        "cp",
+        "nsk_nvme"
+      ],
+      "is_allowed_local_network": false
+    },
+    {
+      "id": 4245,
+      "location": "ru-2",
+      "price": 1100,
+      "cpu": 4,
+      "cpu_frequency": "3.3",
+      "ram": 8192,
+      "disk": 81920,
+      "disk_type": "nvme",
+      "bandwidth": 100,
+      "description": "",
+      "description_short": "Cloud NSK 80",
+      "tags": [
+        "site",
+        "cp",
+        "nsk_nvme"
+      ],
+      "is_allowed_local_network": false
+    },
+    {
+      "id": 4247,
+      "location": "ru-2",
+      "price": 1833,
+      "cpu": 8,
+      "cpu_frequency": "3.3",
+      "ram": 12288,
+      "disk": 102400,
+      "disk_type": "nvme",
+      "bandwidth": 100,
+      "description": "",
+      "description_short": "Cloud NSK 100",
+      "tags": [
+        "site",
+        "cp",
+        "nsk_nvme"
+      ],
+      "is_allowed_local_network": false
+    },
+    {
+      "id": 4249,
+      "location": "ru-2",
+      "price": 2777,
+      "cpu": 8,
+      "cpu_frequency": "3.3",
+      "ram": 16384,
+      "disk": 163840,
+      "disk_type": "nvme",
+      "bandwidth": 100,
+      "description": "",
+      "description_short": "Cloud NSK 160",
+      "tags": [
+        "site",
+        "cp",
+        "nsk_nvme"
+      ],
+      "is_allowed_local_network": false
+    }
+  ],
+  "response_id": "c0d745ec-50ab-4cd5-8401-f0cc30560bee"
+}

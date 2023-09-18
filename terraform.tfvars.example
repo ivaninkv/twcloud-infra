@@ -1,0 +1,11 @@
+twc_token = "token_here"
+
+# SSH
+ssh_key_name = "key_name_here"
+ssh_key_body = "public_key_here"
+
+# Software server
+soft-soft-name = "Wireguard-GUI"
+soft-location = "nl-1"
+soft-cpu = 2
+soft-server-name = "Wireguard-GUI server"
