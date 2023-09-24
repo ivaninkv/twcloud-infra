@@ -1,9 +1,3 @@
-variable twc_token {
-  description = "Token for timeweb cloud"
-  type        = string
-  sensitive   = true
-}
-
 variable "server-name" {
   description = "Name of the server"
   type        = string

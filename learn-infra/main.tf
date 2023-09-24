@@ -20,14 +20,12 @@ module "project" {
 
 module "ssh" {
   source    = "../_modules/ssh"
-  twc_token = var.twc_token
   key_name  = var.ssh_key_name
   key_body  = var.ssh_key_body
 }
 
 module "gl-server" {
   source      = "../_modules/software-server"
-  twc_token   = var.twc_token
   soft_name   = "GitLab"
   location    = "ru-1"
   cpu         = 4

@@ -7,10 +7,6 @@ terraform {
   required_version = ">= 1.5"
 }
 
-provider "twc" {
-  token = var.twc_token
-}
-
 data "twc_presets" "cheap" {
   location = var.location
   cpu      = var.cpu
