@@ -18,9 +18,9 @@ module "project" {
 }
 
 module "ssh" {
-  source    = "../_modules/ssh"
-  key_name  = var.ssh_key_name
-  key_body  = var.ssh_key_body
+  source   = "../_modules/ssh"
+  key_name = var.ssh_key_name
+  key_body = var.ssh_key_body
 }
 
 module "wg-server" {
@@ -34,4 +34,5 @@ module "wg-server" {
   os_version  = var.soft_os_version
   project_id  = module.project.project_id
   price_max   = 560
+  depends_on  = [module.project, module.ssh]
 }

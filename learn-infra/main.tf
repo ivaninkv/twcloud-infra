@@ -19,9 +19,9 @@ module "project" {
 
 
 module "ssh" {
-  source    = "../_modules/ssh"
-  key_name  = var.ssh_key_name
-  key_body  = var.ssh_key_body
+  source   = "../_modules/ssh"
+  key_name = var.ssh_key_name
+  key_body = var.ssh_key_body
 }
 
 module "gl-server" {
@@ -35,6 +35,7 @@ module "gl-server" {
   os_version  = "22.04"
   project_id  = module.project.project_id
   price_max   = 1200
+  depends_on  = [module.project, module.ssh]
 }
 
 module "k8s" {
@@ -44,4 +45,5 @@ module "k8s" {
   node_group_name  = "Nodes"
   master_price_max = 200
   worker_price_max = 300
+  depends_on       = [module.project]
 }
