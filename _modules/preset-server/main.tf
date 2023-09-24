@@ -15,6 +15,11 @@ data "twc_presets" "cheap" {
   location = var.location
   cpu      = var.cpu
   disk     = var.disk
+
+  price_filter {
+    from = var.price_min
+    to   = var.price_max
+  }
 }
 
 data "twc_os" "os" {

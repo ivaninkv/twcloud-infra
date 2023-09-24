@@ -24,6 +24,11 @@ data "twc_os" "os" {
 data "twc_presets" "cheap" {
   location = var.location
   cpu      = var.cpu
+
+  price_filter {
+    from = var.price_min
+    to   = var.price_max
+  }
 }
 
 resource "twc_server" "server" {

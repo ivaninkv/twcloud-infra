@@ -4,8 +4,8 @@ variable twc_token {
   sensitive   = true
 }
 
-variable "server-name" {
-  description = "Name of the server"
+variable "soft_name" {
+  description = "Name of the software"
   type        = string
 }
 
@@ -19,33 +19,38 @@ variable "cpu" {
   type        = number
 }
 
-
-variable "ram" {
-  description = "RAM for the server"
-  type        = number
-}
-
-variable "disk" {
-  description = "Disk for the server"
-  type        = number
-}
-
 variable "ssh_key_id" {
   description = "SSH key id"
   type        = number
 }
 
+variable "server_name" {
+  description = "Name of the server"
+  type        = string
+}
+
 variable "os_name" {
-  description = "OS for the server"
+  description = "OS Name"
   type        = string
 }
 
 variable "os_version" {
-  description = "OS version for the server"
+  description = "Version of OS"
   type        = string
 }
 
 variable "project_id" {
   description = "Project's ID"
+  type        = number
+}
+
+variable "price_min" {
+  description = "Minimal price"
+  type        = number
+  default     = 1
+}
+
+variable "price_max" {
+  description = "Max price"
   type        = number
 }

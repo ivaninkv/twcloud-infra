@@ -17,6 +17,7 @@ module "project" {
   description = var.pr_description
 }
 
+
 module "ssh" {
   source    = "../_modules/ssh"
   twc_token = var.twc_token
@@ -24,16 +25,25 @@ module "ssh" {
   key_body  = var.ssh_key_body
 }
 
-module "wg-server" {
+module "gl-server" {
   source      = "../_modules/software-server"
   twc_token   = var.twc_token
-  soft_name   = var.soft_soft_name
-  location    = var.soft_location
-  cpu         = var.soft_cpu
-  server_name = var.soft_server_name
+  soft_name   = "GitLab"
+  location    = "ru-1"
+  cpu         = 4
+  server_name = "GitLab srv"
   ssh_key_id  = module.ssh.key_id
-  os_name     = var.soft_os_name
-  os_version  = var.soft_os_version
+  os_name     = "ubuntu"
+  os_version  = "22.04"
   project_id  = module.project.project_id
-  price_max   = 560
+  price_max   = 1200
+}
+
+module "k8s" {
+  source           = "../_modules/k8s"
+  project_id       = module.project.project_id
+  cluster_name     = "Learn cluster"
+  node_group_name  = "Nodes"
+  master_price_max = 200
+  worker_price_max = 300
 }
