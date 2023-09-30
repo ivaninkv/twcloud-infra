@@ -25,17 +25,18 @@ module "ssh" {
 }
 
 module "gl-server" {
-  source      = "../_modules/software-server"
-  soft_name   = "GitLab"
-  location    = "ru-1"
-  cpu         = 4
-  server_name = "GitLab srv"
-  ssh_key_id  = module.ssh.key_id
-  os_name     = "ubuntu"
-  os_version  = "22.04"
-  project_id  = module.project.project_id
-  price_max   = 1200
-  depends_on  = [module.project, module.ssh]
+  source       = "../_modules/server"
+  soft_name    = "GitLab"
+  location     = "ru-1"
+  cpu          = 4
+  server_name  = "GitLab srv"
+  ssh_key_id   = module.ssh.key_id
+  os_name      = "ubuntu"
+  os_version   = "22.04"
+  project_id   = module.project.project_id
+  price_max    = 1200
+  ssh_key_body = file("~/.ssh/id_ed25519")
+  depends_on   = [module.project, module.ssh]
 }
 
 module "k8s" {

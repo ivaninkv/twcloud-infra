@@ -33,5 +33,20 @@ resource "twc_server" "server" {
   preset_id    = data.twc_presets.cheap.id
   os_id        = data.twc_os.os.id
   ssh_keys_ids = [var.ssh_key_id]
-  software_id  = data.twc_software.soft.id
+  software_id  = var.soft_name != null && var.soft_name != "" ? data.twc_software.soft.id : null
+
+  connection {
+    host        = self.main_ipv4
+    type        = "ssh"
+    user        = "root"
+    private_key = var.ssh_key_body
+  }
+  provisioner "remote-exec" {
+    inline = [
+      var.inline_commands
+    ]
+
+    when = create
+  }
+
 }

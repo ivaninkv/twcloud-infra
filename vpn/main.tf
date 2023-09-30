@@ -24,15 +24,17 @@ module "ssh" {
 }
 
 module "wg-server" {
-  source      = "../_modules/software-server"
-  soft_name   = var.soft_soft_name
-  location    = var.soft_location
-  cpu         = var.soft_cpu
-  server_name = var.soft_server_name
-  ssh_key_id  = module.ssh.key_id
-  os_name     = var.soft_os_name
-  os_version  = var.soft_os_version
-  project_id  = module.project.project_id
-  price_max   = 560
-  depends_on  = [module.project, module.ssh]
+  source       = "../_modules/server"
+  soft_name    = var.soft_soft_name
+  location     = var.soft_location
+  cpu          = var.soft_cpu
+  server_name  = var.soft_server_name
+  ssh_key_id   = module.ssh.key_id
+  os_name      = var.soft_os_name
+  os_version   = var.soft_os_version
+  project_id   = module.project.project_id
+  price_max    = 560
+  ssh_key_body = file("~/.ssh/id_ed25519")
+  #  inline_commands = file("./provisioner.sh")
+  depends_on   = [module.project, module.ssh]
 }
