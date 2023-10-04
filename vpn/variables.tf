@@ -57,3 +57,13 @@ variable "pr_description" {
   description = "Project description"
   type        = string
 }
+
+# Firewall
+variable "firewall_rules" {
+  description = "Rules for the firewall"
+  type        = map(object({
+    direction = string
+    port      = number
+    protocol  = string
+  }))
+}

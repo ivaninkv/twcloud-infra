@@ -38,3 +38,11 @@ module "wg-server" {
   #  inline_commands = file("./provisioner.sh")
   depends_on   = [module.project, module.ssh]
 }
+
+module "firewall" {
+  source               = "../_modules/firewall"
+  firewall_name        = "VPN Firewall"
+  firewall_description = "Firewall for VPN server"
+  server_ids           = [module.wg-server.server_id]
+  firewall_rules       = var.firewall_rules
+}
