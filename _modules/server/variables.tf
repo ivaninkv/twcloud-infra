@@ -60,3 +60,9 @@ variable "inline_commands" {
   type        = string
   default     = "echo hello"
 }
+
+variable "cloud_init" {
+  description = "Cloud-init script"
+  type = string
+  default = null
+}

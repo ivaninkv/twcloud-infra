@@ -4,7 +4,7 @@ terraform {
       source = "tf.timeweb.cloud/timeweb-cloud/timeweb-cloud"
     }
   }
-  required_version = ">= 1.5"
+  required_version = ">= 1.1.0"
 }
 
 data "twc_software" "soft" {
@@ -34,19 +34,5 @@ resource "twc_server" "server" {
   os_id        = data.twc_os.os.id
   ssh_keys_ids = [var.ssh_key_id]
   software_id  = var.soft_name != null && var.soft_name != "" ? data.twc_software.soft.id : null
-
-  connection {
-    host        = self.main_ipv4
-    type        = "ssh"
-    user        = "root"
-    private_key = var.ssh_key_body
-  }
-  provisioner "remote-exec" {
-    inline = [
-      var.inline_commands
-    ]
-
-    when = create
-  }
-
+  cloud_init   = var.cloud_init
 }

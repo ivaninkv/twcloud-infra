@@ -4,7 +4,7 @@ terraform {
       source = "tf.timeweb.cloud/timeweb-cloud/timeweb-cloud"
     }
   }
-  required_version = ">= 1.5"
+  required_version = ">= 1.1.0"
 }
 
 provider "twc" {
@@ -26,6 +26,7 @@ module "ssh" {
 
 module "gl-server" {
   source       = "../_modules/server"
+  cloud_init   = file("cloud-config.yaml")
   soft_name    = "GitLab"
   location     = "ru-1"
   cpu          = 4

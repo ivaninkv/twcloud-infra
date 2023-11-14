@@ -4,7 +4,7 @@ terraform {
       source = "tf.timeweb.cloud/timeweb-cloud/timeweb-cloud"
     }
   }
-  required_version = ">= 1.5"
+  required_version = ">= 1.1.0"
 }
 
 resource "twc_firewall" "firewall" {

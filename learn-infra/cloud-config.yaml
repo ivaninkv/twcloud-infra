@@ -1,0 +1,12 @@
+#cloud-config
+final_message: |
+  cloud-init has finished
+  version: $version
+  timestamp: $timestamp
+  datasource: $datasource
+  uptime: $uptime
+
+runcmd:
+  - touch /test.txt
+  - mkdir /ikv
+  - echo "test" > /ikv/test.txt
